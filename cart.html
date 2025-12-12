@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="stylez\general.css">
+    <link rel="stylesheet" href="stylez\cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+ <div class="top-bar">
+        <div class="container">
+            <span>Get 25% OFF on your first order. <a href="#">Order Now</a></span>
+        </div>
+        <button class="top-bar-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <header>
+        <div class="container flex-between">
+            <div class="logo">
+                <img src="Assets\Logomark.png" alt="Logo">
+                <span>Ecommerce</span>
+            </div>
+
+            <nav>
+                <span class="nav-link">Home</span>
+                <span class="nav-link">Categories <i class="fa-solid fa-chevron-down"></i></span>
+                <span class="nav-link">About</span>
+                <span class="nav-link">Contact</span>
+            </nav>
+
+            <div class="flex-center">
+                <div class="search-container">
+                    <img src="Assets\Search.png" alt="search">
+                    <input type="text" class="search-input" placeholder="Search products">
+                </div>
+                <div class="header-icons">
+                    <button><img src="Assets\Icon.png" alt="Cart"></button>
+                    <button><img src="Assets\User.png" alt="User"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb-strip">
+        <div class="container breadcrumbs">
+            <a href="#">Ecommerce</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span class="current">Cart</span>
+        </div>
+    </div>
+
+    <div class="container">
+        
+
+        <div class="cart-wrapper">
+
+            <div class="cart-items">
+                <h2>Your cart</h2>
+
+                <div class="cart-list">
+
+                    <div class="cart-item">
+                        <div class="item-img">
+                            <img src="Assets\shirt_705.png" alt="Raw Black T-Shirt">
+                        </div>
+                        <div class="item-details">
+                            <span class="item-name">Raw Black T-Shirt Lineup</span>
+                            <div class="item-meta">
+                                Color: <span class="color-dot bg-green"></span>
+                                <span style="margin: 0 8px;">—</span>
+                                Size: M
+                            </div>
+                        </div>
+                        <div class="item-price">$75.00</div>
+                        <div class="qty-box">
+                            <button class="qty-btn">−</button>
+                            <span class="qty-val">1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="remove-btn"><img src="Assets\X.svg" alt="remove"></button>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="item-img">
+                            <img src="Assets\white_shirt.png" alt="Essential Neutrals">
+                        </div>
+                        <div class="item-details">
+                            <span class="item-name">Essential Neutrals</span>
+                            <div class="item-meta">
+                                Color: <span class="color-dot bg-purple"></span>
+                                <span style="margin: 0 8px;">—</span>
+                                Size: M
+                            </div>
+                        </div>
+                        <div class="item-price">$22.00</div>
+                        <div class="qty-box">
+                            <button class="qty-btn">−</button>
+                            <span class="qty-val">1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="remove-btn"><img src="Assets\X.svg" alt="remove"></button>
+                    </div>
+
+                </div>
+            </div>
+
+            <aside class="order-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>$ 90.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping:</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax:</span>
+                    <span>$ 3.00</span>
+                </div>
+
+                <div class="total-row">
+                    <span>Total</span>
+                    <span>$ 100.00</span>
+                </div>
+
+                <button class="checkout-btn">Checkout</button>
+                <a href="#" class="continue-link">Continue Shopping</a>
+            </aside>
+
+        </div>
+    </div>
+
+       <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="Assets\white_logo.svg" alt="Logo">
+                        <span>Ecommerce</span>
+                    </div>
+                    <p>DevCut is a YouTube channel for practical project-based learning.</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About us</li>
+                        <li>Contact</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li>My Account</li>
+                        <li>Checkout</li>
+                        <li>Cart</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Accepted Payments</h4>
+                    <div style="display: flex; gap: 10px; font-size: 24px; color: #444;">
+                          <img class="payments" src="Assets\Payments (3)-modified.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            &copy; 2023 DevCut. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

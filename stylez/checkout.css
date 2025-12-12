@@ -1,0 +1,126 @@
+.page-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+    margin: 0;
+}
+
+.checkout-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 80px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: var(--black);
+}
+
+.address-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+.form-group label {
+    font-size: 12px;
+    color: var(--dark-gray);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 10px 12px;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--black);
+    height: 40px;
+}
+.form-group input:focus { border-color: var(--black); }
+
+.order-summary {
+    padding-left: 20px;
+}
+
+.order-items-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.item-thumbnails {
+    display: flex;
+    gap: 16px;
+}
+
+.thumb-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-wash);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.thumb-box img {
+    max-width: 80%;
+    mix-blend-mode: multiply;
+}
+
+.btn-edit-cart {
+    padding: 8px 16px;
+    border: 1px solid var(--border-gray);
+    background: white;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--dark-gray);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-edit-cart:hover { border-color: var(--black); color: var(--black); }
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+.summary-row.total {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-gray);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.place-order-btn {
+    background-color: var(--black);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+.place-order-btn:hover { background-color: #222; }
